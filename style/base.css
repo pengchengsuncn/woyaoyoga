@@ -1,0 +1,472 @@
+
+/* 
+	Knewweb:20130913
+ */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #8A8A8A;
+}
+
+h1, h2, h3 {
+	color: #88B816;
+}
+
+h1 {font-size:22px; font-weight:bold;}
+
+h2 {font-size:18px; font-weight:bold;}
+
+a { color: #77B003; }
+
+a:hover { text-decoration: none; }
+
+.error{
+	color:red;
+}
+
+/* Header */
+#header {
+	width:940px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+#container {
+	width:940px;
+	margin:0 auto;
+	padding-top:5px;
+}
+
+#container p{line-height: 200%; font-size:16px;}
+
+.container {
+	width:940px;
+	margin:0 auto;
+	padding-top:5px;
+}
+.container p{line-height: 200%; font-size:16px;}
+
+/* Logo */
+#logo {
+	float:left;
+	width: 500px;
+	height:98px;
+}
+/* Login */
+#login {
+	float:right;
+	width: 250px;
+	text-align:right;
+	padding-top:10px;
+}
+
+#banner_wrapper {
+	width: 100%;
+	height: 43px;
+	margin-top:5px;
+	background:#88B816;
+}
+#banner {
+	width:940px;
+	margin: 0 auto;
+}
+
+/* Menu */
+#menu {
+	float: left;
+	width: 680px;
+	height: 43px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: block;
+	float: left;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 30px;
+	margin: 0;
+	padding: 12px 15px 0px 15px;
+	background: url(../images/border.gif) no-repeat left top;
+	text-decoration: none;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#menu .current_page a {
+	background:#88D816;
+}
+
+/* Search */
+#search {
+	float: right;
+	width: 260px;
+}
+
+#search form {
+	float: right;
+	margin: 0;
+	padding: 11px 0px 0 0;
+}
+
+#search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#search input {
+	float: left;
+	font-size: 12px;
+	border: none;
+}
+
+#search-text {
+	width: 200px;
+	height: 18px;
+	padding: 3px 0 0 5px;
+	border: 1px solid #333333;
+	background: #ECF9E4;
+	color: #000000;
+}
+
+#search-submit {
+	height: 21px;
+	margin-left: 10px;
+	padding: 0px 5px;
+	background: #5AA01B;
+	color: #FFFFFF;
+	cursor:pointer;
+}
+
+/* Block title */
+.block_title {
+	background:#88B816;
+	color:#FFFFFF;
+	font-weight:bold;
+	line-height: 240%;
+	margin-top:0px;
+	margin-bottom:5px;
+}
+
+.block_title img {
+	border:none;
+	width:20px;
+	height:20px;
+	margin:0px 5px 0px 5px;
+	vertical-align:middle;
+}
+
+/* Ads */
+#ads {
+	height:160px;
+	margin-bottom:5px;
+}
+
+
+/*
+	Main Content
+	Include lesson and message	
+*/
+
+#main_content {
+	float: left;
+	width: 690px;
+	margin-bottom:5px;
+}
+
+#lesson {
+	height:200px;
+	margin-bottom:5px;
+}
+
+#message {
+	height:202px;
+	border:1px solid #88B816;
+}
+
+#message_list li{
+	border-bottom:1px dashed gray;
+	padding:4px 5px 0 5px;
+	height:35px;
+}
+#message_list li p{
+	line-height:0px;
+	font-size:12px;
+	margin-top:10px;
+	margin-left:20px;
+}
+
+#message_list li span.user_name{
+	color:#88B816;
+	font-weight:bolder;
+	margin-right:10px;
+}
+#message_list li span.create_date{
+	float:right;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 245px;
+	font-size: 12px;
+}
+
+#news {
+	height:135px;
+	border:1px solid #88B816;
+}
+
+#newslist{
+	padding-left:15px;
+	padding-right:5px;
+	line-height:16px;
+}
+
+#contact {
+	height:138px;
+	border:1px solid #88B816;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+#contact table img {
+	border:none;
+	width:20px;
+	height:20px;
+	margin-right:2px;
+	vertical-align:middle;
+}
+
+
+#ranking {
+	height:120px;
+	border:1px solid #88B816;
+}
+#ranking table{
+	width:90%;
+	margin:0 auto;
+	line-height:20px;
+}
+
+/* Photo */
+#photo {
+	clear:both;
+	width:940px;
+	height:180px;
+	margin:10px auto;
+	border:1px solid #88B816;
+}
+#auto_photo {
+	margin:0 auto;
+}
+
+#auto_photo img{
+	border:3px solid #CCCC99;
+}
+
+/* Footer */
+#footer {
+	clear:both;
+	width: 100%;
+	border:1px solid #E1E1E1;
+	margin: 0 auto;
+	background: #E1E1E1;
+}
+
+#footer p {
+	text-align: center;
+	font-size:14px;
+}
+
+.btn{
+	padding:5px 10px 5px 10px;
+	background:#88D816;
+	border:1px solid #88B816;
+	color:#FFFFFF;
+	cursor:pointer;
+	font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, Arial, Helvetica, sans-serif;
+	font-weight:bolder;
+}
+.btn:hover{
+	background:#88B816;
+	border:1px solid #88D816;
+}
+
+#register_form table tr{
+	height:30px;
+}
+#register_form .inputStyle{
+	width:220px;
+}
+#login_form table tr{
+	height:30px;
+}
+#login_form .inputStyle{
+	width:220px;
+}
+#leave_message_form .inputStyle{
+	width:400px;
+}
+#leave_message_form .textareaStyle{
+	width:400px;
+	height:165px;
+}
+
+.aboutUs img{
+	float:left;
+	width:500px;
+	height:350px;
+	margin-right:10px;
+}
+
+/***Ê¦×ÊÁ¦Á¿***/
+.teacher_info img.yanxia{
+	float:left;
+	width:220px;
+	height:320px;
+	margin-right:10px;
+}
+.teacher_info img.zhenhua{
+	float:right;
+	width:150px;
+	height:180px;
+	margin-left:10px;
+}
+.teacher_info img.liuzheng{
+	float:left;
+	margin-right:10px;
+}
+.teacher_info img.xupeng{
+	float:right;
+	width:150px;
+	height:225px;
+	margin-left:10px;
+}
+.teacher_info img.luoyawen{
+	float:left;
+	width:450px;
+	height:670px;
+	margin-right:10px;
+}
+
+/*** online chat widget ***/
+.widget-chat {
+	background: transparent url('/images/widget_chat.png') no-repeat right top;
+	width: 60px;
+	height: 60px;
+	z-index: 100;
+}
+#widget-chat-wrapper {
+    clear: both;
+    height: 1px;
+    margin: 0 auto;
+    width: 99%;
+}
+.widget-chat-container {
+    clear: both;
+    left: -520px;
+    margin: 0 auto;
+    position: relative;
+    width: 60px;
+}
+div.widget-chat-fixed { /* scrolled to top */
+    position: fixed;
+    top: 20px;
+}
+html > body div.widget-chat-absolute { /* initial position */
+    position: absolute;
+    top: 340px;
+}
+
+/***
+	Message Approved
+***/
+table#approve_msg {
+	width:100%;
+	font: normal 13px/1.3em "Î¢ÈíÑÅºÚ","Microsoft YaHei",Verdana,Arial,sans-serif;
+}
+table#approve_msg th,
+table#approve_msg td {
+	padding: 6px;
+}
+table#approve_msg th {
+	background: #CCC;
+	font-weight: bold;
+}
+.odd_row_bg {
+	background-color:#F2F2F2;
+}
+
+/***
+	Left Menu
+***/
+.left_menu{
+	float:left;
+	width:200px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.right_main{
+	float:left;
+	width:600px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#teacher-photos {
+	margin:10px auto;
+}
+
+#teacher-photos img{
+	width:640px;
+	height:426px;
+}
+
+/**** Lesson Order Page Style ****/
+.lesson-order-tbl{
+	width:900px;
+	margin:0 auto;
+	border:1px solid green;
+	border-collapse:collapse;  
+	border-spacing:0;
+}
+.lesson-order-tbl tr{
+	line-height:30px;
+}
+.lesson-order-tbl th, .lesson-order-tbl td{  
+	padding-right:5px; 
+	padding-left:5px;
+	border:1px solid green;
+}
+.lesson-order-tbl td:hover{  
+	background: #CAED9E;
+	cursor: pointer;
+}
+.lesson-order-tbl td span{
+	color:red;
+}
+.lesson-order-tbl a:link{text-decoration: none}
+
+.wechat span{
+	color: #ff8c00;
+}
+.wechat .img-wechat{
+	width:400px;
+	margin: 10px auto;
+}
